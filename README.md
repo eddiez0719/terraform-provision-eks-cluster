@@ -1,5 +1,5 @@
 ## About 
-This repo is to provision an EKS Cluster
+This project is to provision an EKS Cluster
 vpc.tf - provisions a VPC, subnets and availability zones using the AWS VPC Module.
 security-groups.tf provisions the security groups used by the EKS cluster.
 eks-cluster.tf provisions all the resources (AutoScaling Groups, etc...) required to set up an EKS cluster using the AWS EKS Module.
