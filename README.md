@@ -7,6 +7,9 @@ outputs.tf defines the output configuration.
 versions.tf sets the Terraform version to at least 0.14. It also sets versions for the providers used in this staging environment.
 Optional: this project also creates a Kubernetes Dashboard which allows users to manage applications running in the cluster and troubleshoot them, as well as manage the cluster itself.
 
+## Architecture
+![image](https://user-images.githubusercontent.com/67562825/172740470-55ce8a36-6fa3-49d1-bb78-3b171f186c41.png)
+
 ## Usage
 
 To run this script you will need to execute:
